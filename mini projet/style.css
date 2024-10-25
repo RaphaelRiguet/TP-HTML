@@ -1,0 +1,27 @@
+header{
+    background-color:#1ABC9C ;
+}
+h1{
+    text-align: center;
+    color:#2C3E50 ;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-decoration-thickness: 5px;
+    cursor: pointer;
+}
+
+.presentation{
+    background-image: url(./images/married.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color:#fff ;
+}
+.service-card{
+    height: 10px;
+    width: 10px;
+}

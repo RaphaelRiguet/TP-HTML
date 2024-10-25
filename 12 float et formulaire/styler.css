@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 40px;
+    margin: 70px;
+    background-color: tomato;
+    padding: 50px;
+    text-align: center;
+    }
+
+
+.footer{
+    background-color: orange;
+    margin: 100px;
+
+}
+.sidebar-rigtht{
+    float: right;
+    border: 2px solid black;
+    width: 100px;
+    padding: 1%;
+}
+
+.footer{
+    clear: both;
+}
+.simle-form{
+    width: 600px;
+    margin: 2px auto;
+    border: 20px auto;
+}
+
+.simple-form input{
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline-color: green;
+    color: violet;
+}
+
+.tfoot{
+    caption-side: bottom;
+
+}

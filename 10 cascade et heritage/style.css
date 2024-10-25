@@ -1,0 +1,42 @@
+/* l'heritage c'est de transmetre des carateristique d'un parent a un enfants */
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    color: sandybrown;
+}
+
+.main{
+    color: aliceblue;
+    border-color: darkolivegreen;
+    padding: 0, auto;
+}
+
+.main p{
+    padding: initial;
+}
+
+/* cascasde en css 
+cascade definie l'ordre d'aplicatiions des regles css*/
+
+a{
+    display: block;
+    color: red;
+
+}
+
+h2{
+    color: initial;
+}
+
+blockquote{
+    color: springgreen;
+    text-align: center;
+    border: 2px solid black;
+
+}
+.citation{
+    color: tomato;
+    text-align: right;
+    border: ;
+}

@@ -1,0 +1,135 @@
+
+body{
+    font-style: arial;
+    background-color: ivory;
+}
+
+header{
+    background-color: blue;
+    padding: 30px;
+}
+
+header>h1{
+    color: orange;
+    text-align: center;
+}
+
+main{
+    margin: 0px;
+    width: 80;
+    padding: 20px;
+}
+
+.recette{
+    border-color: red;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.entree{
+    border-color: red;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.ingredients{
+    margin: 20px;
+    background-color: orange;
+}
+
+.prepartion,.ingredients{
+    margin: 20px;
+    background-color: pink;
+}
+
+.image-recette>.recette-du-jour{
+    width: 100;
+    border-radius: 8px;
+}
+
+.titre-section{
+    color: blue;
+    text-align: center;
+    border: 24px;
+}
+
+.titre-recette{
+    color: red;
+    font-size: 24px;
+}
+
+.description{
+    font-style: italic;
+    color: grey;
+}
+
+.sous-titre{
+    color: blue;
+    margin: 20px;
+}
+
+.liste-ingredients+.etapes-preparation{
+    margin: 5px;
+}
+
+.liste-ingredients>span{
+    font-weight: bold;
+}
+.etapes-preparation>span{
+    margin: 10px;
+}
+
+.temps-cuisson{
+    font-style: bold;
+}
+
+
+input[type="duree"]{
+    color: orange;
+}
+
+input[type="btn-recette"]{
+    background-color: green;
+    color: white;
+    width: 15px;
+    border-radius: 3px;
+    margin: 15px;
+}
+
+section{
+    background-color: grey;
+    width: 20px;
+    margin: 30px;
+    border: 5px;
+}
+
+form{
+    margin: 15px;
+}
+
+input[type="email"]{
+    width: 85;
+    border: 1px;
+    border-color: grey;
+    border-radius: 3px;
+}
+
+button[type="btn-submit"]{
+    background-color: green;
+    color: white;
+    border: 10px;
+}
+
+.pied-de-page{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 20px;
+    margin: 30px;
+}
+
+.copyright{
+    font-size: 24px;
+}

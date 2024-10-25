@@ -1,0 +1,77 @@
+/* les couleur  */
+
+.square{
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}
+.square-1{
+    background-color: red;
+}
+
+.square-2{
+    background-color: rgb(0, 204, 255);
+}
+.square-3{
+    background-color: rgba(0, 149, 0, 0.221);
+}
+
+.square-4{
+    background-color: #665AA9;
+}
+
+.square-6{
+    background-color: aliceblue;
+    border: 2px solid green;
+    box-shadow: 10px 10px 5px #be66dd;
+}
+.square-7{
+    background-color: aliceblue;
+    border: 2px solid orange;
+    box-shadow: -15px 10px 5px #67a6a9;
+}
+
+.square-8{
+    background-color: aliceblue;
+    box-shadow: inset5px 5px 5px #2618f0;
+}
+
+/* test shadow */
+h3{
+    text-shadow: 2px 2px 1px #54a8b3;
+}
+h4{
+    text-shadow: 2px 2px 2px #f9f9a0;
+    text-shadow: 2px 2px 2px #54a8b3;
+}
+/* opacité
+PERMET DE DEFINIR LE NIVEAU DE TRANSPARANCE entre 0 et 1 
+*/
+.square-9{
+    background-color: orange;
+    opacity: 0.9;
+}
+.square-10{
+    background-color: orange;
+    opacity: 0.5;
+}
+.square-11{
+    background-color: orange;
+    opacity: 0.1;
+}
+/* linar-gradient 
+sert a crée des effet de transisiont en 2 ou pluisieur couleur. il crée des transition linaire sur une droite entre les couleur definie
+*/
+.square-12{
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(to right, purple, pink)
+}
+.square-13{
+    width: 600px;
+    height: 300px;
+    background: radial-gradient(orange,tomato,indigo);
+}
+
+
+

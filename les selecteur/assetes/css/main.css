@@ -1,0 +1,108 @@
+/*les selecteur et tpe de balise
+se selecteur cible tout les element du type que nous avons specifer de leur apliquer une propriete ou liste de propr */
+body{ 
+    /* permet de definir une couleur de fond */
+    background-color: blueviolet;
+}
+p{
+    color: rgb(127, 255, 140);
+}
+/* 
+selecteur de classe 
+pour cibler un element avec une classe on utilise le simbole . avec le nom de la classe 
+*/
+.intro-title{
+    color: rgb(238, 255, 0);
+}
+.intro-text{
+    color: crimson;
+    font-weight: bold;
+    font-size: 18px;
+    /* font weight permet de definir le niveau de grasceete propririeter peut prendre des valeur numerique entre 100 et 
+    90 en fonction de la police utiliser 
+    font size permet de definir la taile du texte */
+}
+
+#container{
+    background-color: pink;
+    padding: 20px;
+}
+#content{
+    color: orange;
+}
+
+.produit{
+    background-color: lightcoral;
+    padding: 20px;
+    width: 300px;
+}
+/* se selecteur cible tout les enfant d'un element quelque soit leur niveau d'imbrications  */
+.produit h3{
+    color: blueviolet;
+}
+.produit ul{
+    color: orange;
+}
+
+
+section{
+    background-color: darkblue;
+    padding: 20px;
+    width: 300px;
+}
+
+section>span{
+    font-weight: bold;
+    color: white;
+}
+/* se selecteur cible tout les enfant direct d'un selecteur  */
+
+.header{
+    color: beige;
+    font-size: 20px;
+}
+.header .main-title{
+    color: aquamarine;
+    font-size: 30px;
+}
+/* selecteur univercelle il est utiliser principalement pour faire du resset du style du document par defaut 
+tout les element on un style define par le navigateur 
+*/
+/* *{
+    background-color: violet;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+#wrapper *{
+    background-color: red;
+}
+.list{
+    color: whitesmoke;
+    /* permet de changer la taile du texte */
+    text-transform: capitalize;
+    font-size: 700;
+}
+/* selecteur adejacen
+se selecteur permet de selecioner le premier element qui suit directement l'element selectioner (h3) */
+.detail h3+p{
+    color: firebrick;
+    font-weight: bold;
+}
+
+h1,h2,h3{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* selecteur d'tributs */
+input[ type= "text"]{
+    border: 3px solid red;
+}
+input[ type= "email"]{
+    border: 3px solid green;
+}
